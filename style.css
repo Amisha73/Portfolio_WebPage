@@ -1,0 +1,78 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #000000;
+}
+
+.portfolio {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.logo{
+    color: white;
+}
+.logo:hover{
+    font-size: 24px;
+    color: rgb(78, 169, 243);
+}
+
+.profile {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+}
+
+.profile img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+.profile h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.profile h2 {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.profile p {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+button {
+    transition: all .5s ease;
+    color: #000000;
+    border: 3px solid rgb(0, 0, 0);
+    font-family:'Courier New', Courier, monospace;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 1;
+    font-size: 17px;
+    background-color : transparent;
+    padding: 10px;
+    outline: none;
+    border-radius: 4px;
+}
+button:hover {
+    color: #ffffff;
+    background-color:rgb(29, 123, 199);
+}
+
+a{
+    color: #000000;
+    font-size: 20px;
+    padding: 8px;
+}
+
+a:hover{
+    font-size: 24px;
+}
